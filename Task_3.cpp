@@ -13,8 +13,6 @@ using namespace std;
 
 #pragma comment(lib, "wbemuuid.lib")
 
-//LPWSTR SERVICENAME = LPWSTR(TEXT("Myservice"));
-
 SERVICE_STATUS ServiceStatus = { 0 };
 
 SERVICE_STATUS_HANDLE hServiceStatusHandle = NULL;
